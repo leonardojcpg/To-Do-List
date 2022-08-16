@@ -1,0 +1,66 @@
+*{
+    list-style: none;
+    background-color: #5a3ac4;
+}
+
+h1{
+    color: white;
+    font-style: bold;
+    font-weight: 600;
+    text-align: center;
+    font-family: sans-serif;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input{
+    border-radius: 5px;
+    background-color: white;
+    width: 400px;
+    height: 20px;        
+}
+
+span{
+    background-color: red;
+    color: white;
+    float: right;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+.feito{
+    color: green;
+    font-style: italic;
+    font-weight: 200;
+    text-decoration: line-through;
+
+}
+label{
+    align-items: center;
+    font-weight: 00;
+    font-style: bold;
+    color: white;
+}
+button{
+    display: inline-block;
+    border-color: white;
+    color: white;
+    font-weight: 300;
+    border-radius: 5px;
+    transition: transform 100ms linear;
+
+}
+
+button:hover{
+    transform: scale(1.03);
+    color: black;
+}
+
+.container_tarefas{
+    text-align: center;
+}
